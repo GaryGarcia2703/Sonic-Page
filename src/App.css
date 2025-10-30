@@ -1,0 +1,75 @@
+/* Contenedor que centra todo */
+.Conteiner {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap ;
+  justify-content: center;   /* centra vertical */
+  align-items: center;       /* centra horizontal */
+  min-height: 100vh;         /* ocupa toda la altura de la pantalla */
+  gap: 20px;
+}
+
+/* Estilos de la tarjeta */
+.tarjeta {
+  width: 1000px;             /* más ancha → rectangular */
+  height: 500px;             /* más baja */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;   /* centra el texto horizontalmente */
+  align-items: center; /* centra el texto verticalmente */
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+h1 {
+  font-size: 45px;
+  background-color: rgba(0, 0, 0, 0.425);
+  padding: 15px;
+  border-radius: 10px;  
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 35px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.gameplayFlex{
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  margin-bottom: 400px;
+}
+
+.gameplayImg { 
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+
+
