@@ -1,4 +1,5 @@
-import './App.css'
+import './style/App.css'
+import './style/media-queires.css'
 
 export function Tarjeta({
     nombre, 

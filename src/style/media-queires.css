@@ -1,0 +1,149 @@
+/* =========================
+   DESKTOP (predeterminado)
+========================= */
+
+/* =========================
+   LAPTOP
+========================= */
+@media (max-width: 1279px) and (min-width: 1024px) {
+
+    h3.tituloJuego {
+        font-size: 7.7em;
+    } 
+
+
+    .gameplayImg {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .gameplayImg img {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .gameplayImgContainer {
+        width: 50%;
+    }
+}
+
+/* =========================
+   TABLET
+========================= */
+@media (max-width: 1023px) and (min-width: 768px) {
+
+    .tarjeta {
+        max-width: 100%;
+        height: 460px;
+    }
+
+    .gameplayImg {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+  .gameplayImgContainer {
+        width: 100%;
+    }
+
+    .gameplayImg img {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    p {
+        width: 100%;
+        text-align: center;
+    }
+
+    h3.tituloJuego {
+        font-size: 5.7em;
+    } 
+
+    .imgGameplay {
+        width: 60%;
+    }
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 767px) {
+
+    .tarjeta {
+        max-width: 98%;
+        height: 460px;
+    }
+    .gameplayImg {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .gameplayImgContainer {
+        width: 100%;
+    }
+
+    .gameplayImg img {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    p {
+        width: 100%;
+        text-align: center;
+    }
+
+    h3.tituloJuego {
+        font-size: 5.7em;
+    } 
+
+    .imgGameplay {
+        width: 60%;
+    }
+
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 33px;
+        line-height: 50px;
+    }
+    
+    .tarjeta {
+        max-width: 98%;
+        height: 460px;
+    }
+
+    .gameplayImg {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+  .gameplayImgContainer {
+        width: 100%;
+    }
+
+    .gameplayImg img {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    p {
+        width: 100%;
+        text-align: center;
+    }
+    
+    h3.tituloJuego {
+        font-size: 3.7em;
+    } 
+
+    .imgGameplay {
+        width: 60%;
+    }
+}
